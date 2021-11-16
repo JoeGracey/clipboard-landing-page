@@ -19,12 +19,68 @@ html {
   float: left;
 }
 
-.monitor2 {
-  
-}
-
 .monitor1-text {
   overflow: hidden;
+}
+
+.workflow-tools {
+  overflow: hidden;
+}
+
+.blacklist, .snippets,
+.preview {
+  float: left;
+  width: 23%;
+  margin: 50px;
+}
+
+.company-logos {
+
+}
+
+.google, .ibm, .microsoft,
+.hp, .vector {
+  width: 10%;
+  margin: 50px;
+}
+
+.logo-bottom {
+  width: 50px;
+  float: left;
+  position: relative;
+  top: 55px;
+  left: 70px;
+}
+
+.footer-links {
+  width: 50%;
+  overflow: hidden;
+  margin-left: 200px;
+  position: relative;
+  top: 35px;
+}
+
+.faqs, .contact-us, .privacy-policy,
+.press-kit, .install-guide {
+  width: 30%;
+  float: left;
+}
+
+.social-media-icons {
+  float: right;
+  position: relative;
+  width: 30%;
+  bottom: 50px;
+}
+
+.facebook, .twitter, .instagram {
+  margin: 20px;
+}
+
+footer {
+  background-color: #bcbcbc;
+  width: 100%;
+  position: absolute;
 }
 
 .button-cyan {
@@ -36,6 +92,7 @@ html {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  margin: 40px 0 75px 0;
 }
 
 .button-blue {
